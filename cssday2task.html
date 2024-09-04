@@ -2,178 +2,167 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .nd {
+        border: 6vw solid rgb(4, 3, 3);
+        height: 50vh;
+        width: 50vh;
+        border-radius: 50%;
+        background-color: brown;
+        position: relative;
+      }
+      .cd {
+        border-radius: 50%;
+        position: absolute;
+      }
+      .cd1 {
+        background-color: aqua;
+        height: 45vh;
+        width: 45vh;
+        top: 5%;
+        left: 5%;
+      }
+      .cd2 {
+        background-color: red;
+        height: 40vh;
+        width: 40vh;
+        top: 10%;
+        left: 10%;
+      }
+      .cd3 {
+        background-color: black;
+        height: 35vh;
+        width: 35vh;
+        top: 15%;
+        left: 15%;
+      }
+      .cd4 {
+        background-color: chartreuse;
+        height: 30vh;
+        width: 30vh;
+        top: 20%;
+        left: 20%;
+      }
+      .cd5 {
+        background-color: indigo;
+        height: 25vh;
+        width: 25vh;
+        top: 25%;
+        left: 25%;
+      }
+      .cd6 {
+        background-color: firebrick;
+        height: 20vh;
+        width: 20vh;
+        top: 30%;
+        left: 30%;
+      }
+      .cd7 {
+        background-color: darkblue;
+        height: 15vh;
+        width: 15vh;
+        top: 35%;
+        left: 35%;
+      }
+      .cd8 {
+        background-color: orangered;
+        height: 10vh;
+        width: 10vh;
+        top: 40%;
+        left: 40%;
+      }
+      .cd9 {
+        background-color: darkgreen;
+        height: 7.5vh;
+        width: 7.5vh;
+        top: 42%;
+        left: 43%;
+      }
+      .md {
+        background-color: black;
+        height: 40vh;
+        width: 15vw;
+        border-radius: 10vw;
+        margin: 5vh 10%;
+      }
+      .kd1 {
+        background-color: red;
+        height: 10vh;
+        width: 10vw;
+        border-radius: 50%;
+        margin-top: 20%;
+        margin-left: 15%;
+      }
+      .kd2 {
+        background-color: yellow;
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        margin: 10% auto;
+      }
+      .kd3 {
+        background-color: green;
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+        margin: 10% auto;
+      }
+      .st {
+        background-color: black;
+        height: 50vh;
+        width: 3vw;
+        margin-left: 16%;
+        margin-top: -10%;
+      }
+      .bt {
+        background-color: black;
+        height: 5vh;
+        width: 40vw;
+      }
+      .fl {
+        border: 1px solid;
+        height: 30vh;
+        width: 40vw;
+      }
+      .or {
+        background-color: orangered;
+        height: 10vh;
+      }
+      .or2 {
+        background-color: blue;
+        height: 10vh;
+        width: 10vh;
+        margin-left: 35%;
+        border-radius: 50%;
+      }
+      .or3 {
+        background-color: green;
+        height: 10vh;
+      }
+      .hm {
+        background-color: rgb(125, 87, 38);
+        height: 50vh;
+        width: 1vw;
+      }
+    </style>
   </head>
-  <style>
-    .nd {
-      border: 30px solid rgb(4, 3, 3);
-      height: 500px;
-      width: 500px;
-      border-radius: 100%;
-      background-color: brown;
-    }
-    .cd {
-      border-radius: 100%;
-    }
-    .cd1 {
-      background-color: aqua;
-      height: 450px;
-      width: 450px;
-      border-radius: 100%;
-      margin-top: 25px;
-      margin-left: 25px;
-    }
-    .cd2 {
-      background-color: red;
-      height: 400px;
-      width: 400px;
-      border-radius: 100%;
-      margin-top: -420px;
-      margin-left: 50px;
-    }
-    .cd3 {
-      background-color: black;
-      height: 350px;
-      width: 350px;
-      border-radius: 100%;
-      margin-top: -375px;
-      margin-left: 75px;
-    }
-    .cd4 {
-      background-color: chartreuse;
-      height: 300px;
-      width: 300px;
-      border-radius: 100%;
-      margin-top: -320px;
-      margin-left: 100px;
-    }
-    .cd5 {
-      background-color: indigo;
-      height: 250px;
-      width: 250px;
-      border-radius: 100%;
-      margin-top: -275px;
-      margin-left: 125px;
-    }
-    .cd6 {
-      background-color: firebrick;
-      height: 200px;
-      width: 200px;
-      border-radius: 100%;
-      margin-top: -225px;
-      margin-left: 150px;
-    }
-    .cd7 {
-      background-color: darkblue;
-      height: 150px;
-      width: 150px;
-      border-radius: 100%;
-      margin-top: -175px;
-      margin-left: 175px;
-    }
-    .cd8 {
-      background-color: orangered;
-      height: 100px;
-      width: 100px;
-      border-radius: 100%;
-      margin-left: 200px;
-      margin-top: -125px;
-    }
-    .cd9 {
-      background-color: darkgreen;
-      height: 75px;
-      width: 75px;
-      border-radius: 100%;
-      margin-top: -87px;
-      margin-left: 212px;
-    }
-    .md {
-      background-color: black;
-      height: 400px;
-      width: 150px;
-      border-radius: 100px;
-      margin-top: 20px;
-      margin-left: 30px;
-    }
-    .kd1 {
-      background-color: red;
-      height: 15vh;
-      width: 100px;
-      border-radius: 100%;
-      margin-left: 18%;
-      margin-top: 18%;
-    }
-    .kd2 {
-      background-color: yellow;
-      height: 100px;
-      width: 100px;
-      border-radius: 100%;
-      margin-left: 25px;
-      margin-top: 45px;
-    }
-    .kd3 {
-      background-color: green;
-      height: 100px;
-      width: 100px;
-      border-radius: 100%;
-      margin-left: 25px;
-      margin-top: 30px;
-    }
-
-    .st {
-      background-color: black;
-      height: 50vh;
-      width: 3vh;
-      margin-left: 13vh;
-    }
-    .bt {
-      background-color: black;
-      height: 5vh;
-      width: 40vh;
-    }
-    .fl {
-      border: 1px solid;
-      height: 30vh;
-      width: 40vh;
-    }
-    .or {
-      background-color: orangered;
-      height: 10vh;
-    }
-    .or2 {
-      background-color: blue;
-      height: 10vh;
-      width: 10vh;
-      margin-left: 33%;
-      border-radius: 100%;
-    }
-    .or3 {
-      background-color: green;
-      height: 10vh;
-    }
-    .hm {
-      background-color: rgb(125, 87, 38);
-      height: 50vh;
-      width: 1vw;
-    }
-  </style>
   <body>
     <h1>1.ARCHERY</h1>
     <div class="nd">
-      <div cd class="cd1"></div>
-      <div cd class="cd2"></div>
-      <div cd class="cd3"></div>
-      <div cd class="cd4"></div>
-      <div cd class="cd5"></div>
-      <div cd class="cd6"></div>
-      <div cd class="cd7"></div>
-      <div cd class="cd8"></div>
-      <div cd class="cd9"></div>
+      <div class="cd cd1"></div>
+      <div class="cd cd2"></div>
+      <div class="cd cd3"></div>
+      <div class="cd cd4"></div>
+      <div class="cd cd5"></div>
+      <div class="cd cd6"></div>
+      <div class="cd cd7"></div>
+      <div class="cd cd8"></div>
+      <div class="cd cd9"></div>
     </div>
     <h1>2.TRAFFIC LIGHTS</h1>
     <div class="md">
-      <div class="kd4"></div>
       <div class="kd1"></div>
       <div class="kd2"></div>
       <div class="kd3"></div>
